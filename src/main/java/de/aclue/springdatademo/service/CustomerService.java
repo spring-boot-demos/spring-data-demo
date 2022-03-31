@@ -25,7 +25,7 @@ public class CustomerService {
 		return Arrays.asList(c1, c2, c3);
 	}
 
-	public List<Customer> currentQuery() {
+	public Object currentQuery() {
 		Customer c1 = new Customer("Juergen", "Hoeller", 40);
 		return Arrays.asList(c1);
 	}
